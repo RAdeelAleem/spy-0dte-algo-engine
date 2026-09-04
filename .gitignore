@@ -1,0 +1,18 @@
+# Secrets & Env
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+venv/
+env/
+ENV/
+
+# Data & Logs
+*.log
+data/historical/*.csv
