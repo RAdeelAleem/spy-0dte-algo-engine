@@ -34,3 +34,43 @@ An event-driven algorithmic trading engine engineered in Python to evaluate, fil
 ├── .gitignore
 ├── requirements.txt
 └── run_bot.py               # Entry-point runner
+```
+
+---
+
+## Tech Stack
+
+* **Language:** Python 3.10+
+* **APIs & Brokerages:** Alpaca Trade API, Interactive Brokers (TWS / ib_insync)
+* **Libraries:** pandas, numpy, websockets, python-dotenv
+
+---
+
+## Quick Start
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/RAdeelAleem/spy-0dte-algo-engine.git](https://github.com/RAdeelAleem/spy-0dte-algo-engine.git)
+   cd spy-0dte-algo-engine
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Configure environment:**
+   ```bash
+   cp .env.example .env
+   ```
+   Add your paper trading API credentials in `.env`.
+
+4. **Run paper execution:**
+   ```bash
+   python run_bot.py --mode paper
+   ```
+
+---
+
+## License
+MIT License
